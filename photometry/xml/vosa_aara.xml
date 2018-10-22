@@ -1,0 +1,227 @@
+<VOTABLE version="1.1" xmlns="http://www.ivoa.net/xml/VOTable/v1.1"
+                                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                   xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.1"
+                                   xmlns:sed="http://www.ivoa.net/xml/SedModel/v1.0">
+<RESOURCE type="results">
+<DESCRIPTION>VOSA</DESCRIPTION>
+<INFO name="QUERY_STATUS" value="OK"/>
+<TABLE>
+  <DESCRIPTION>Object final SED</DESCRIPTION>
+  <GROUP utype="Curation">
+    <PARAM name="Publisher" utype="Curation.Publisher" ucd="meta.organization;meta.curation" datatype="char" arraysize="*" value="LAEFF/Spanish Virtual Observatory"/>
+     <PARAM name="PubID" utype="Curation.PubID" ucd="meta.curation.pubid" datatype="char" arraysize="*" value="phsy"/>
+     <PARAM name="Contact" utype="Curation.Contact.Name" ucd="meta.human;meta.curation" datatype="char" arraysize="*" value="Enrique Solano"/>
+     <PARAM name="Email" utype="Curation.ContactEmail" ucd="meta.email" datatype="char" arraysize="*" value="esm@cab.inta-csic.es"/>
+   </GROUP>
+   <PARAM name="Object" value="alf+Ara" unit="" datatype="char" arraysize="*"/>
+   <PARAM name="RA" value="262.96038137" unit="deg" datatype="float"/>
+   <PARAM name="DEC" value="-49.876145012" unit="deg" datatype="float"/>
+   <PARAM name="Av" value="---" unit="" datatype="float"/>
+   <FIELD name="FilterID" unit="" ucd="" utype="" datatype="char" arraysize="*">
+     <DESCRIPTION></DESCRIPTION>
+   </FIELD>
+   <FIELD name="Wavelength" unit="A" ucd="" utype="" datatype="float" >
+     <DESCRIPTION></DESCRIPTION>
+   </FIELD>
+   <FIELD name="Flux" unit="erg/s/cm2/A" ucd="" utype="" datatype="float" >
+     <DESCRIPTION>Observed Flux</DESCRIPTION>
+   </FIELD>
+   <FIELD name="Error" unit="erg/s/cm2/A" ucd="" utype="" datatype="float" >
+     <DESCRIPTION>Error (observed)</DESCRIPTION>
+   </FIELD>
+   <FIELD name="Excess" unit="" ucd="" utype="" datatype="int" >
+     <DESCRIPTION></DESCRIPTION>
+   </FIELD>
+   <FIELD name="Point Props" unit="" ucd="" utype="" datatype="char" arraysize="*">
+     <DESCRIPTION>Point Props</DESCRIPTION>
+   </FIELD>
+   <FIELD name="Service" unit="" ucd="" utype="" datatype="char" arraysize="*">
+     <DESCRIPTION>Catalogue</DESCRIPTION>
+   </FIELD>
+   <DATA>
+      <TABLEDATA>
+        <TR>
+          <TD>tycho</TD>
+          <TD>5340</TD>
+          <TD>3.0413611997046E-10</TD>
+          <TD>2.5210774659061E-12</TD>
+          <TD>0</TD>
+          <TD>---</TD>
+          <TD>tycho</TD>
+        </TR>
+        <TR>
+          <TD>tycho</TD>
+          <TD>4280</TD>
+          <TD>5.6316173091077E-10</TD>
+          <TD>7.2616757166232E-12</TD>
+          <TD>0</TD>
+          <TD>---</TD>
+          <TD>tycho</TD>
+        </TR>
+        <TR>
+          <TD>UBVmerm</TD>
+          <TD>3570.64730961</TD>
+          <TD>5.4956556234103E-10</TD>
+          <TD>1.53778648969E-11</TD>
+          <TD>0</TD>
+          <TD>---</TD>
+          <TD>UBVmerm</TD>
+        </TR>
+        <TR>
+          <TD>UBVmerm</TD>
+          <TD>4378.11999165</TD>
+          <TD>4.9077539255945E-10</TD>
+          <TD>1.0715849782306E-11</TD>
+          <TD>0</TD>
+          <TD>---</TD>
+          <TD>UBVmerm</TD>
+        </TR>
+        <TR>
+          <TD>UBVmerm</TD>
+          <TD>5466.11399596</TD>
+          <TD>2.383522684453E-10</TD>
+          <TD>4.610141593709E-12</TD>
+          <TD>0</TD>
+          <TD>---</TD>
+          <TD>UBVmerm</TD>
+        </TR>
+        <TR>
+          <TD>2mass</TD>
+          <TD>12350</TD>
+          <TD>2.6049870169184E-11</TD>
+          <TD>6.3341037118649E-12</TD>
+          <TD>0</TD>
+          <TD>---</TD>
+          <TD>2mass</TD>
+        </TR>
+        <TR>
+          <TD>2mass</TD>
+          <TD>16620</TD>
+          <TD>1.048648427317E-11</TD>
+          <TD>2.2214340576092E-12</TD>
+          <TD>0</TD>
+          <TD>---</TD>
+          <TD>2mass</TD>
+        </TR>
+        <TR>
+          <TD>2mass</TD>
+          <TD>21590</TD>
+          <TD>4.3345904957265E-12</TD>
+          <TD>8.7830718445303E-13</TD>
+          <TD>0</TD>
+          <TD>---</TD>
+          <TD>2mass</TD>
+        </TR>
+        <TR>
+          <TD>viz_wise</TD>
+          <TD>115608</TD>
+          <TD>2.2694524411911E-14</TD>
+          <TD>3.553413005035E-16</TD>
+          <TD>1</TD>
+          <TD>---</TD>
+          <TD>viz_wise</TD>
+        </TR>
+        <TR>
+          <TD>viz_wise</TD>
+          <TD>220883</TD>
+          <TD>3.4476749592552E-15</TD>
+          <TD>2.8578833880012E-17</TD>
+          <TD>1</TD>
+          <TD>---</TD>
+          <TD>viz_wise</TD>
+        </TR>
+        <TR>
+          <TD>iras</TD>
+          <TD>101464.582668</TD>
+          <TD>3.6982433069385E-14</TD>
+          <TD>1.4792973227754E-15</TD>
+          <TD>1</TD>
+          <TD>---</TD>
+          <TD>iras</TD>
+        </TR>
+        <TR>
+          <TD>iras</TD>
+          <TD>519887.310614</TD>
+          <TD>2.2405448439173E-16</TD>
+          <TD>2.0164903595255E-17</TD>
+          <TD>1</TD>
+          <TD>---</TD>
+          <TD>iras</TD>
+        </TR>
+        <TR>
+          <TD>iras</TD>
+          <TD>217265.488922</TD>
+          <TD>3.8931369915734E-15</TD>
+          <TD>2.335882194944E-16</TD>
+          <TD>1</TD>
+          <TD>---</TD>
+          <TD>iras</TD>
+        </TR>
+        <TR>
+          <TD>akari</TD>
+          <TD>176094.903177</TD>
+          <TD>5.6923937738071E-15</TD>
+          <TD>2.8519975599068E-16</TD>
+          <TD>1</TD>
+          <TD>---</TD>
+          <TD>akari</TD>
+        </TR>
+        <TR>
+          <TD>akari</TD>
+          <TD>769035.210222</TD>
+          <TD>7.5377065430587E-17</TD>
+          <TD>2.443291562713E-18</TD>
+          <TD>1</TD>
+          <TD>---</TD>
+          <TD>akari</TD>
+        </TR>
+        <TR>
+          <TD>APEX</TD>
+          <TD>8695652.173913043</TD>
+          <TD>1.452105e-20</TD>
+          <TD>2.8566000000000002e-21</TD>
+          <TD>0</TD>
+          <TD>---</TD>
+          <TD>APEX</TD>
+        </TR>
+        <TR>
+          <TD>TD1</TD>
+          <TD>1565.</TD>
+          <TD>3.395e-09</TD>
+          <TD>1.80e-11</TD>
+          <TD>0</TD>
+          <TD>---</TD>
+          <TD>TD1</TD>
+        </TR>
+        <TR>
+          <TD>TD1</TD>
+          <TD>2365.</TD>
+          <TD>1.555e-09</TD>
+          <TD>9.0e-12</TD>
+          <TD>0</TD>
+          <TD>---</TD>
+          <TD>TD1</TD>
+        </TR>
+        <TR>
+          <TD>ATCA</TD>
+          <TD>3.5e9</TD>
+          <TD>1.469387755102041e-28</TD>
+          <TD>0</TD>
+          <TD>0</TD>
+          <TD>---</TD>
+          <TD>ATCA</TD>
+        </TR>
+        <TR>
+          <TD>ATCA</TD>
+          <TD>6.e9</TD>
+          <TD>9.0702947845805e-29</TD>
+          <TD>0</TD>
+          <TD>0</TD>
+          <TD>---</TD>
+          <TD>ATCA</TD>
+        </TR>
+     </TABLEDATA>
+   </DATA>
+</TABLE>
+</RESOURCE>
+</VOTABLE>
